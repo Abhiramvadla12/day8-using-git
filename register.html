@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="./registerresponse.html" method="post" enctype="multipart/form-data">
+        <fieldset>
+            <legend>register form</legend>
+            <div>
+                <label for="abhi">username:</label>
+                <input type="text" id="abhi" placeholder="username" name="uname" autofocus required minlength="10" maxlength="20"><br>
+            </div>
+            <div>
+                <label for="abhi">password:</label>
+                <input type="password" id="abhi" placeholder="password" name="pass" required minlength="8" maxlength="16"><br>
+            </div>
+            <div>
+                <label for="abhi">phone number:</label>
+                <input id="abhi" type="number" placeholder="phone number" name="phonenumber" required minlength="10" maxlength="10"><br>
+
+            </div>
+            <div>
+                <h2>gender:</h2>
+                <label for="abhi" >male</label>
+                <input type="radio" id="abhi" name="gender" value="male" checked><br>
+                <label for="abhiram" >female</label>
+                <input type="radio" id="abhiram" name="gender" value="female"><br>
+                <label for="abhiram" >others</label>
+                <input type="radio" id="abhiram" name="gender" value="others"><br>
+                
+                
+            </div>
+            <div>
+                <label for="photo" >upload your photo</label>
+                <input type="file" id="photo" name="photo" multiple accept=".jpg,.jpeg,.png" required>
+
+            </div>
+            
+        </fieldset>
+        <label for="ram">click the button to register</label>
+        <input id="ram" type="submit" value="register">
+    </form>    
+    
+</body>
+</html>
